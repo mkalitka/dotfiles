@@ -4,3 +4,4 @@ custom-shell-command='toolbox enter'
 theme-dark='Catppuccin-Mocha'
 font='JetBrainsMono Nerd Font Mono 12'
 cursor-shape=1
+working-directory-mode=1

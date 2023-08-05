@@ -1,11 +1,3 @@
-[org/gnome/desktop/background]
-color-shading-type='solid'
-picture-options='zoom'
-picture-uri='/var/home/mikolaj/.config/background'
-picture-uri-dark='/var/home/mikolaj/.config/background'
-primary-color='#3071AE'
-secondary-color='#000000'
-
 [org/gnome/desktop/interface]
 clock-show-seconds=true
 clock-show-weekday=true
