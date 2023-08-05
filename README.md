@@ -9,6 +9,7 @@ mkalitka's dotfiles
 - Any Github SSH key
 - Gnome shell
 - fish
+- gcc
 - neovim
 - git
 - exa
