@@ -1,0 +1,6 @@
+[com/raggesilver/BlackBox]
+use-custom-command=true
+custom-shell-command='toolbox enter'
+theme-dark='Catppuccin-Mocha'
+font='JetBrainsMono Nerd Font Mono 12'
+cursor-shape=1
