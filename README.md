@@ -6,6 +6,7 @@ mkalitka's dotfiles
 
 ## Requirements
 
+- Any Github SSH key
 - Gnome shell
 - fish
 - neovim
