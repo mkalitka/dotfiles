@@ -2,22 +2,17 @@
 
 SCRIPT_PATH=$(dirname "$0")
 
-source $SCRIPT_PATH/scripts/log.sh
+# Load shared functions
+source $SCRIPT_PATH/scripts/shared.sh
 
 # Run all scripts
 for script in $SCRIPT_PATH/scripts/*.sh; do
-    if [ $script == "$SCRIPT_PATH/scripts/log.sh" ]; then
+    if [ $script == "$SCRIPT_PATH/scripts/shared.sh" ]; then
         continue
     fi
     echo
     log "STAGE - Executing $script..."
-    bash $script
-done
-
-for script in $SCRIPT_PATH/scripts/*.fish; do
-    echo
-    log "STAGE - Starting $script..."
-    fish $script
+    $script
 done
 
 echo

@@ -2,8 +2,8 @@
 
 SCRIPT_PATH=$(dirname "$0")
 
-# Load log function
-source $SCRIPT_PATH/log.sh
+# Load shared functions
+source $SCRIPT_PATH/shared.sh
 
 FONTS_DIR=$HOME/.local/share/fonts
 

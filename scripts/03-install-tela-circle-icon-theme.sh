@@ -2,13 +2,13 @@
 
 SCRIPT_PATH=$(dirname "$0")
 
-# Load log function
-source $SCRIPT_PATH/log.sh
+# Load shared functions
+source $SCRIPT_PATH/shared.sh
 
 ICONS_DIR=$HOME/.local/share/icons
 
-# Load log function
-source $SCRIPT_PATH/log.sh
+# Load shared functions
+source $SCRIPT_PATH/shared.sh
 
 # Clone repo
 log "Downloading Tela circle icon theme..."

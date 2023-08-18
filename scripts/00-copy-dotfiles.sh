@@ -2,15 +2,15 @@
 
 SCRIPT_PATH=$(dirname "$0")
 
-# Load log function
-source $SCRIPT_PATH/log.sh
+# Load shared functions
+source $SCRIPT_PATH/shared.sh
 
 CONFIG_DIR=$HOME/.config
 
-# Encode git config file
+# Decode git config file
 gpg $SCRIPT_PATH/../files/.config/git/config.gpg 2>/dev/null
 
-# Create config directories
+# Remove old config directories
 for dir in $(command ls $SCRIPT_PATH/../files/.config); do
     rm -rf $CONFIG_DIR/$dir
     log "$CONFIG_DIR/$dir removed."

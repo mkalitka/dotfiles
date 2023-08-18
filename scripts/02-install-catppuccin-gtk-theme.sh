@@ -2,8 +2,8 @@
 
 SCRIPT_PATH=$(dirname "$0")
 
-# Load log function
-source $SCRIPT_PATH/log.sh
+# Load shared functions
+source $SCRIPT_PATH/shared.sh
 
 THEMES_DIR=$HOME/.themes
 
@@ -33,7 +33,7 @@ ln -sf $THEMES_DIR/Catppuccin-Mocha-Standard-Blue-dark/gtk-4.0/gtk-dark.css $HOM
 ln -sf $THEMES_DIR/Catppuccin-Mocha-Standard-Blue-dark/gtk-4.0/assets $HOME/.config/gtk-4.0/assets
 
 # Apply theme to flatpak apps
-flatpak override --user --filesystem=$THEMES_DIR --filesystem=~/.config/gtk-4.0 --env=GTK_THEME=Catppuccin-Mocha-Standard-Blue-dark
+flatpak override --user --filesystem=$THEMES_DIR --filesystem=$HOME/.config/gtk-4.0 --env=GTK_THEME=Catppuccin-Mocha-Standard-Blue-dark
 
 # Cleanup
 log "Running cleanup."
