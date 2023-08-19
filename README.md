@@ -29,6 +29,7 @@ mkalitka's dotfiles
 - Removable Drive Menu
 - Caffeine
 - Transparent Top Bar
+- Clipboard Indicator
 
 ## Extensions for LibreWolf
 
