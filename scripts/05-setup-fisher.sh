@@ -16,8 +16,8 @@ fisher install decors/fish-colored-man >/dev/null
 fisher install oh-my-fish/plugin-gi >/dev/null
 fisher install oh-my-fish/plugin-license >/dev/null
 fisher install ilancosman/tide >/dev/null
+tide configure --auto --style=Lean --prompt_colors='16 colors' --show_time='24-hour format' --lean_prompt_height='One line' --prompt_spacing=Compact --icons='Many icons'
 log "Fish plugins succesfully installed."
-log "INFO: Run \"tide configure\" to configure shell theme."
 
 
 log "Fisher successfully set up."
