@@ -1,0 +1,10 @@
+jorgebucaran/fisher
+jethrokuan/z
+jorgebucaran/autopair.fish
+gazorby/fish-abbreviation-tips
+oh-my-fish/plugin-gi
+oh-my-fish/plugin-license
+jorgebucaran/nvm.fish
+lewisacidic/fish-git-abbr
+ilancosman/tide@v6
+patrickf1/fzf.fish
